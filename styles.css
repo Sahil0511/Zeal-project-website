@@ -45,6 +45,7 @@ body {
     content: "";
     background: rgba(0,0,0,0.6);
     position: absolute;
+    height: 80vh;
     bottom: 0;
     top: 0;
     right: 0;
@@ -82,4 +83,39 @@ body {
     border: 2px solid #202020;
     text-decoration: none;
     color: #ffffff;
+}
+
+/* Services */
+.service {
+    text-align: center;
+    padding: 70px 20px;
+    background: #202020;
+    color: #ffffff;
+}
+.service .icon {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #ffffff;
+    border-radius: 50px;
+}
+.service .icon i {
+    font-size: 32px;
+    line-height: 1;
+    position: relative;
+    color: #3f3f3f;
+}
+.service h4 {
+    margin: 10px 0px 15px 0px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.service p {
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 0;
 }
