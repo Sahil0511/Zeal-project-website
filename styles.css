@@ -140,7 +140,7 @@ body {
     font-size: 36px;
     font-weight: light;
 }
-p {
+.about-zeal {
     color: #ffffff;
 }
 .bg-faded {
@@ -177,4 +177,83 @@ p {
     .about .about-text {
         width: 45%;
     }
+}
+
+/* Medical Staff */
+
+.team {
+    background: #ffffff;
+}
+.team .member {
+    position: relative;
+    box-shadow: 1px 2px 15px #202020;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.team .member .image {
+    overflow: hidden;
+    width: 50%;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+.team .member .image .img {
+    transition: ease-in-out 0.3s;
+}
+.team .member:hover .img {
+    transform: scale(1.1);
+}
+.team .member h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #202020;
+}
+.team .member span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: bold;
+}
+.tesm .member span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #b5b3ba;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.team .member p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+.team .social {
+    margin-top: 12px;
+    display: flex;
+    background: #b5b3ba;
+    align-items: center;
+    justify-content: center;
+}
+.team .social a {
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-left: 8px;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+}
+.team .member .social a {
+    color: #2f2f2f;
+    font-size: 16px;
+    margin: 0 2px;
+}
+.team .social a:hover {
+    background: #ffdf6c;
 }
