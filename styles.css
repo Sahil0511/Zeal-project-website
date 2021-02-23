@@ -284,14 +284,30 @@ body {
     font-size: 14px;
     margin-bottom: 0;
 }
-.contact button {
+
+/* Appointment */
+
+.appointment h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.appointment p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.appointment button {
     background: #2f2f2f;
     color: #ffffff;
     border: none;
     border-radius: 50px;
     padding: 10px;
 }
-.contact button:hover {
+.appointment button:hover {
     color: #ffdf6c;
 }
 
