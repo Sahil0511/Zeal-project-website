@@ -119,6 +119,9 @@ body {
     line-height: 24px;
     margin-bottom: 0;
 }
+.service-headpara {
+    text-align: center;
+}
 
 /* About Us */
 
@@ -259,7 +262,6 @@ body {
 }
 
 /* Contact */
-
 .contact-box {
     color: #fff;
     text-align: center;
@@ -284,6 +286,11 @@ body {
     font-size: 14px;
     margin-bottom: 0;
 }
+.contact .row {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Appointment */
 
@@ -299,7 +306,10 @@ body {
     font-size: 14px;
     margin-bottom: 0;
 }
-
+.appointment .appointment-center {
+    display: flex;
+    justify-content: center;
+}
 .appointment button {
     background: #2f2f2f;
     color: #ffffff;
